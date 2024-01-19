@@ -1,0 +1,113 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "motor_paso",
+					"strict" : false
+				},
+				{
+					"name" : "led_sistemaOn",
+					"strict" : false
+				},
+				{
+					"name" : "led_bolsa",
+					"strict" : false
+				},
+				{
+					"name" : "led_mal",
+					"strict" : false
+				},
+				{
+					"name" : "peso_out",
+					"strict" : false
+				},
+				{
+					"name" : "anodo7[6]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo7[4]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo8[6]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo8[5]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo8[4]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo8[3]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo8[2]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo8[1]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo8[0]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo9[6]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo9[5]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo9[4]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo9[3]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo9[2]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo9[1]",
+					"strict" : false
+				},
+				{
+					"name" : "anodo9[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

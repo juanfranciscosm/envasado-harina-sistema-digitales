@@ -1,0 +1,143 @@
+<session jtag_chain="DE-SoC [USB-1]" jtag_device="@2: 5CSEBA6(.|ES)/5CSEMA6/.. (0x02D020DD)" sof_file="C:/Users/Estudiante/Desktop/ENVASADO-HARINA-SISTEMAS1/output_files/envasadoHarina.sof">
+  <display_attributes is_max_probe_read_interval="0" is_write_immediate="1" probe_read_interval="1" probe_read_interval_units="s"/>
+  <instance enable_logging="true" entity_name="" is_auto_node="true" name="">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="9" version="0"/>
+    <sources>
+      <source name="source[0]" value="false"/>
+      <source name="source[1]" value="true"/>
+      <source name="source[2]" value="false"/>
+      <source name="source[3]" value="false"/>
+      <source name="source[4]" value="false"/>
+      <source name="source[5]" value="false"/>
+      <source name="source[6]" value="false"/>
+      <source name="source[7]" value="false"/>
+      <source name="source[8]" value="false"/>
+      <source name="source[9]" value="false"/>
+      <source name="source[10]" value="true"/>
+      <source name="source[11]" value="false"/>
+      <source name="source[12]" value="false"/>
+      <source name="source[13]" value="false"/>
+      <source name="source[14]" value="false"/>
+      <source name="source[15]" value="false"/>
+      <source name="source[16]" value="true"/>
+    </sources>
+    <probes>
+      <probe name="probe[0]"/>
+      <probe name="probe[1]"/>
+      <probe name="probe[2]"/>
+      <probe name="probe[3]"/>
+      <probe name="probe[4]"/>
+      <probe name="probe[5]"/>
+      <probe name="probe[6]"/>
+      <probe name="probe[7]"/>
+      <probe name="probe[8]"/>
+      <probe name="probe[9]"/>
+      <probe name="probe[10]"/>
+      <probe name="probe[11]"/>
+      <probe name="probe[12]"/>
+      <probe name="probe[13]"/>
+      <probe name="probe[14]"/>
+      <probe name="probe[15]"/>
+      <probe name="probe[16]"/>
+      <probe name="probe[17]"/>
+      <probe name="probe[18]"/>
+      <probe name="probe[19]"/>
+      <probe name="probe[20]"/>
+      <probe name="probe[21]"/>
+      <probe name="probe[22]"/>
+      <probe name="probe[23]"/>
+      <probe name="probe[24]"/>
+    </probes>
+    <view>
+      <view_node expanded="true" group_name="probe[24..0]" index="0" lsb_to_msb="false" name="" node_type="probe" view_type="group_header"/>
+      <view_node expanded="true" index="24" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="23" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="22" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="21" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="20" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="19" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="18" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="17" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="16" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="15" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="14" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="13" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="12" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="11" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="10" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="9" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="8" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="7" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="6" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="5" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="4" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="3" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="2" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="1" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" index="0" node_type="probe" view_type="group_member"/>
+      <view_node expanded="true" group_name="source[16..0]" index="0" lsb_to_msb="false" node_type="source" view_type="group_header"/>
+      <view_node expanded="true" index="16" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="15" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="14" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="13" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="12" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="11" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="10" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="9" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="8" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="7" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="6" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="5" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="4" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="3" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="2" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="1" node_type="source" view_type="group_member"/>
+      <view_node expanded="true" index="0" node_type="source" view_type="group_member"/>
+    </view>
+    <alias_list>
+      <alias alias="distancia[0]" name="source[8]"/>
+      <alias alias="distancia[1]" name="source[9]"/>
+      <alias alias="distancia[2]" name="source[10]"/>
+      <alias alias="distancia[3]" name="source[11]"/>
+      <alias alias="distancia[4]" name="source[12]"/>
+      <alias alias="distancia[5]" name="source[13]"/>
+      <alias alias="distancia[6]" name="source[14]"/>
+      <alias alias="distancia[7]" name="source[15]"/>
+      <alias alias="Start" name="source[16]"/>
+      <alias alias="peso[7]" name="source[7]"/>
+      <alias alias="peso[6]" name="source[6]"/>
+      <alias alias="peso[5]" name="source[5]"/>
+      <alias alias="peso[4]" name="source[4]"/>
+      <alias alias="peso[3]" name="source[3]"/>
+      <alias alias="peso[2]" name="source[2]"/>
+      <alias alias="peso[0]" name="source[0]"/>
+      <alias alias="peso[1]" name="source[1]"/>
+      <alias alias="unidades[6]" name="probe[0]"/>
+      <alias alias="unidades[5]" name="probe[1]"/>
+      <alias alias="unidades[4]" name="probe[2]"/>
+      <alias alias="unidades[3]" name="probe[3]"/>
+      <alias alias="unidades[2]" name="probe[4]"/>
+      <alias alias="unidades[1]" name="probe[5]"/>
+      <alias alias="unidades[0]" name="probe[6]"/>
+      <alias alias="decenas[6]" name="probe[7]"/>
+      <alias alias="decenas[5]" name="probe[8]"/>
+      <alias alias="decenas[4]" name="probe[9]"/>
+      <alias alias="decenas[3]" name="probe[10]"/>
+      <alias alias="decenas[2]" name="probe[11]"/>
+      <alias alias="decenas[1]" name="probe[12]"/>
+      <alias alias="decenas[0]" name="probe[13]"/>
+      <alias alias="contador[6]" name="probe[14]"/>
+      <alias alias="contador[5]" name="probe[15]"/>
+      <alias alias="contador[4]" name="probe[16]"/>
+      <alias alias="contador[3]" name="probe[17]"/>
+      <alias alias="contador[2]" name="probe[18]"/>
+      <alias alias="contador[1]" name="probe[19]"/>
+      <alias alias="contador[0]" name="probe[20]"/>
+      <alias alias="led sistema on" name="probe[21]"/>
+      <alias alias="led bolsa" name="probe[22]"/>
+      <alias alias="led mal" name="probe[23]"/>
+      <alias alias="motor paso" name="probe[24]"/>
+    </alias_list>
+    <log data="2040BDE7FF9001C6BFDF72040BDE7FF9001C6BFDF72040BDE7FF9001C6BFDF72040BDE7FF9001C6BFDF7" max_size="8" size="8" time="EDE89A5600000000FDE89A56000000000EE89A56000000001EE89A56000000002EE89A56000000003EE89A56000000004EE89A56000000005EE89A5600000000" width="42"/>
+  </instance>
+</session>

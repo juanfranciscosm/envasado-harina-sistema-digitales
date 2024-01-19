@@ -1,0 +1,45 @@
+--JARA YUPA ANA BELÉN, SÁNCHEZ MALDONADO JUAN FRANCISCO, Paralelo 101, Envasado de Harina 
+--Comparador_de_distancia, 21 dic. 
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity comparador_de_distancia is
+    Port ( SBdistancia : in STD_LOGIC_VECTOR (7 downto 0);
+           distanciaMinima : in STD_LOGIC_VECTOR (7 downto 0) := "00000000";
+           distanciaMaxima : in STD_LOGIC_VECTOR (7 downto 0) := "00001001";
+           distanciaMinimaValida: inout STD_LOGIC;
+			  distanciaMaximaValida: inout STD_LOGIC;
+           Distancia_bolsa_H : inout STD_LOGIC);
+end comparador_de_distancia;
+
+architecture Behavioral of comparador_de_distancia is
+begin
+    -- Comparador 1
+    process(SBdistancia, distanciaMinima)
+    begin
+        if SBdistancia >= distanciaMinima then
+            distanciaMinimaValida <= '1';
+        else
+            distanciaMinimaValida <= '0';
+        end if;
+    end process;
+
+    -- Comparador 2
+    process(SBdistancia, distanciaMaxima)
+    begin
+        if SBdistancia <= distanciaMaxima then
+            distanciaMaximaValida <= '1';
+        else
+            distanciaMaximaValida <= '0';
+        end if;
+    end process;
+	 
+	 -- AND
+	 process(distanciaMinimaValida, distanciaMaximaValida)
+	 begin
+		Distancia_bolsa_H <= distanciaMinimaValida AND distanciaMaximaValida;
+		end process;
+end Behavioral;

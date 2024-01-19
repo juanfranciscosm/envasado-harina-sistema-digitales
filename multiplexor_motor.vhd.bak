@@ -1,0 +1,24 @@
+--JARA YUPA ANA BELÉN, SÁNCHEZ MALDONADO JUAN FRANCISCO, Paralelo 101, Envasado de Harina 
+--Multiplexor de motor, 21 dic. 
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity multiplexor_motor is
+	generic ( n: integer:=4);--<-- nbits
+	port(	cerrarCompuerta: in std_logic: ='0';
+			abrirCompuerta: in std_logic:='1';
+			Sel: in std_logic;
+			en: in std_logic;
+			Q: out std_logic_vector(n-1 downto 0));
+end multiplexor_motor;
+
+architecture solve of multiplexor_motor is
+	signal f: std_logic_vector(n-1 downto 0);
+	begin
+		with Sel select
+		f<= A when '0',
+			 B when others;
+		Q<= f when en='0' else (others=>'1');
+end solve;

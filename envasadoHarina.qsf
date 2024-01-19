@@ -1,0 +1,140 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+# Date created = 12:58:41  January 12, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		envasadoHarina_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY envasadoGeneral
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:58:41  JANUARY 12, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "19.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name QSYS_FILE HOST_COM.qsys
+set_global_assignment -name VHDL_FILE comparador_de_peso.vhd
+set_global_assignment -name VHDL_FILE comparador_de_distancia.vhd
+set_global_assignment -name BDF_FILE bloqueComparadorDistancia.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name BDF_FILE bloqueComparadorPeso.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
+set_global_assignment -name VHDL_FILE multiplexor_motor.vhd
+set_global_assignment -name BDF_FILE bloqueMultiplexorMotor.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform4.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform5.vwf
+set_global_assignment -name VHDL_FILE DecoBCD_7seg.vhd
+set_global_assignment -name BDF_FILE bloqueDecodificadorBCDa7seg.bdf
+set_global_assignment -name VHDL_FILE DecoBin_BCD.vhd
+set_global_assignment -name VHDL_FILE contador.vhd
+set_global_assignment -name VHDL_FILE MSI.vhd
+set_global_assignment -name BDF_FILE envasadoGeneral.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform6.vwf
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_V16 -to anodo8[5]
+set_location_assignment PIN_AH18 -to anodo7[0]
+set_location_assignment PIN_AG18 -to anodo7[1]
+set_location_assignment PIN_AH17 -to anodo7[2]
+set_location_assignment PIN_AG16 -to anodo7[3]
+set_location_assignment PIN_AG17 -to anodo7[4]
+set_location_assignment PIN_V18 -to anodo7[5]
+set_location_assignment PIN_W17 -to anodo7[6]
+set_location_assignment PIN_V17 -to anodo8[0]
+set_location_assignment PIN_AE17 -to anodo8[1]
+set_location_assignment PIN_AE18 -to anodo8[2]
+set_location_assignment PIN_AD17 -to anodo8[3]
+set_location_assignment PIN_AE16 -to anodo8[4]
+set_location_assignment PIN_AF16 -to anodo8[6]
+set_location_assignment PIN_W16 -to anodo9[0]
+set_location_assignment PIN_AF18 -to anodo9[1]
+set_location_assignment PIN_Y18 -to anodo9[2]
+set_location_assignment PIN_Y17 -to anodo9[3]
+set_location_assignment PIN_AA18 -to anodo9[4]
+set_location_assignment PIN_AB17 -to anodo9[5]
+set_location_assignment PIN_AA21 -to anodo9[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo7[6]
+set_location_assignment PIN_AF14 -to Clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo7[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo7[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo7[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo7[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo7[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo7[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo7
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo8[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo8[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo8[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo8[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo8[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo8[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo8[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo8
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo9[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo9[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo9[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo9[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo9[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo9[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo9[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to anodo9
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Clk
+set_location_assignment PIN_AA24 -to led_bolsa
+set_location_assignment PIN_AB23 -to led_mal
+set_location_assignment PIN_AG25 -to led_sistemaOn
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led_sistemaOn
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led_mal
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led_bolsa
+set_location_assignment PIN_AC22 -to motor_paso
+set_instance_assignment -name IO_STANDARD "1.2 V" -to altera_reserved_tms
+set_instance_assignment -name IO_STANDARD "1.2 V" -to altera_reserved_tdo
+set_location_assignment PIN_AD24 -to peso_out
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to motor_paso
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to peso_out
+set_global_assignment -name SOURCE_FILE output_files/Spf5.spf
+set_global_assignment -name SOURCE_FILE output_files/Spf6.spf
+set_global_assignment -name SOURCE_FILE output_files/Spf9.spf
+set_global_assignment -name SOURCE_FILE output_files/Spf10.spf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name SOURCE_FILE output_files/Spf12.spf
+set_global_assignment -name SOURCE_FILE output_files/Spf13.spf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

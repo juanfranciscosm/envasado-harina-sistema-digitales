@@ -1,0 +1,52 @@
+
+--JARA YUPA ANA BELÉN, SÁNCHEZ MALDONADO JUAN FRANCISCO, Paralelo 101, Enasado de Harina 
+--Comparador_de_peso, 15 dic. 
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity comparador_de_peso is
+    Port ( SBpeso : in STD_LOGIC_VECTOR (7 downto 0);
+           pesoMinimo : in STD_LOGIC_VECTOR (7 downto 0) := "01001000";
+           pesoMaximo : in STD_LOGIC_VECTOR (7 downto 0) := "01010010";
+           pesoMinimoValido out STD_LOGIC;
+			  pesoMaximoValido out STD_LOGIC;
+			  comp1_1 : out STD_LOGIC;
+           Peso_H : out STD_LOGIC);
+end comparador_de_peso;
+
+architecture Behavioral of comparador_de_peso is
+begin
+    -- Comparador 1
+    process(SBpeso, pesoMinimo)
+    begin
+        if SBpeso = pesoMinimo then
+            comp1_1 <= '1';
+        else
+            comp1_1 <= '0';
+        end if;
+		  if SBpeso > pesoMinimo then
+				pesoMinimoValido <= '1';
+			else 
+				pesoMinimoValido <= '0';
+			end if;
+    end process;
+
+    -- Comparador 2
+    process(SBpeso, pesoMaximo)
+    begin
+        if SBpeso < pesoMaximo then
+            pesoMaximoValido <= '1';
+        else
+            pesoMaximoValido <= '0';
+        end if;
+    end process;
+	 
+	 -- AND
+	 process(pesoMinimoValido, pesoMaximoValido)
+	 begin
+		Peso_H <= pesoMinimoValido AND pesoMaximoValido;
+		end process
+end Behavioral;
